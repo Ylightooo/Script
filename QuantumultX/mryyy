@@ -1,0 +1,2 @@
+body = $response.body.replace(/finished\":\\w+/g, 'finished\":true').replace(/user_purchase_status\":\\d/g, 'user_purchase_status\":1');
+$done({body});
