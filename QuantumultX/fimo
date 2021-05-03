@@ -1,2 +1,2 @@
-body = $response.body.replace(films":\[[^]]+\]/g, 'films": n    "goodId": "fimoAesthetic400");
+body = $response.body.replace(films":\[[^]]+]/g, 'films": n    "goodId": "fimoAesthetic400");
 $done({body});
